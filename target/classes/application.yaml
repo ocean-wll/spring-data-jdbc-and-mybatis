@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ocean
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath*:mybatis/*Mapper.xml
